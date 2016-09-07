@@ -1,0 +1,123 @@
+.intro {
+  background-image: url("https://farm5.staticflickr.com/4134/4850937382_2b2438539f_b.jpg");
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+  margin: 5px;
+  }
+
+body{
+  background-color: white; 
+  padding-top: 70px;
+}
+
+.taival {
+  background-image: url("jooga.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+.title {
+  color: black;
+  padding: 20px;
+
+}
+
+.head-title {
+  margin: 20px 10px 10px 10px;
+  color: black;
+}
+
+.quote-app {
+  background-image: url("quote.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: 10px;
+
+}
+
+.wiki {
+  background-image: url("wiki.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.about {
+  padding: 10px;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  padding-top: 20px;
+  font-family: 'PT Serif', serif;
+}
+
+.projects {
+  margin: 10px;
+}
+.footer{
+  margin:20px 20px 20px 0px;
+}
+.in-touch{
+  margin:10px;
+}
+.codecamp{
+  padding:15px;
+}
+#icon{
+  color: black;
+}
+.weather-app{
+  background-image: url("weather.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: 10px;
+
+}
+a{
+  color:white;
+  text-decoration: none;
+
+}
+a:hover, a:focus {
+    text-decoration:none;
+    color: white;
+}
+h3{
+  font-family: 'PT Serif', serif;
+  font-size: 3.0vh;
+  padding:20px 10px;  
+  text-align: left;
+}
+
+h1{
+  font-size: 3.0vh;
+  padding-top: 10vw;
+}
+h2{
+  font-size: 3.0vh;
+}
+@media only screen and (min-width: 800px) {
+
+   h1 { font-size: 7.0vh; }
+   h2{
+    font-size: 6.0vh; 
+   }
+
+}
+.pic{
+  margin-right: 10px;
+}
+
+
