@@ -14,7 +14,7 @@ body{
 }
 
 .taival {
-  background-image: url("jooga.jpg");
+  background-image: url("../img/jooga.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -35,7 +35,7 @@ body{
 }
 
 .quote-app {
-  background-image: url("quote.jpg");
+  background-image: url("../img/quote.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -44,7 +44,7 @@ body{
 }
 
 .wiki {
-  background-image: url("wiki.jpg");
+  background-image: url("../img/wiki.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -78,7 +78,7 @@ p {
   color: black;
 }
 .weather-app{
-  background-image: url("weather.png");
+  background-image: url("../img/weather.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
