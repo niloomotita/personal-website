@@ -6,6 +6,8 @@
   background-size: cover;
   height: 50vw;
   margin: 5px;
+  border: 5px solid transparent;
+  
   }
 
 body{
@@ -20,6 +22,8 @@ body{
   height: 300px;
   margin-top: 10px;
   text-align: center;
+  border: 5px solid transparent;
+  
 
 }
 
@@ -40,6 +44,8 @@ body{
   background-repeat: no-repeat;
   height: 300px;
   margin-top: 10px;
+  border: 5px solid transparent;
+ 
 
 }
 
@@ -49,6 +55,8 @@ body{
   background-size: cover;
   height: 300px;
   margin-top: 10px;
+  border: 5px solid transparent;
+  
 }
 
 .about {
@@ -83,6 +91,7 @@ p {
   background-size: cover;
   height: 300px;
   margin-top: 10px;
+  border: 5px solid transparent;
 
 }
 a{
@@ -116,8 +125,11 @@ h2{
    }
 
 }
-.pic{
-  margin-right: 10px;
+@media (max-width: 800px){
+  .pic  {
+      margin-top: 5vw;
+  }
 }
+
 
 
