@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .intro {
   background-image: url("https://farm5.staticflickr.com/4134/4850937382_2b2438539f_b.jpg");
   font-family: 'Oswald', sans-serif;
@@ -21,8 +24,9 @@ body{
   background-size: cover;
   height: 300px;
   margin-top: 10px;
-  text-align: center;
-  border: 5px solid transparent;
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
   
 
 }
@@ -39,14 +43,13 @@ body{
 }
 
 .quote-app {
-  background-image: url("../img/quote.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color:#00bcd4;
   height: 300px;
   margin-top: 10px;
-  border: 5px solid transparent;
- 
-
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
 }
 
 .wiki {
@@ -55,7 +58,7 @@ body{
   background-size: cover;
   height: 300px;
   margin-top: 10px;
-  border: 5px solid transparent;
+  border: 2px solid white;
   
 }
 
@@ -63,14 +66,15 @@ body{
   padding: 10px;
 }
 
-p {
+.define-me {
   font-size: 20px;
   color: black;
   padding-top: 20px;
   font-family: 'PT Serif', serif;
 }
 
-.projects {
+.project {
+
   margin: 10px;
 }
 .footer{
@@ -86,20 +90,20 @@ p {
   color: black;
 }
 .weather-app{
-  background-image: url("../img/weather.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color:#3aa67b;
   height: 300px;
   margin-top: 10px;
-  border: 5px solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
 
 }
-a{
+.portfolio-projects{
   color:white;
   text-decoration: none;
 
 }
-a:hover, a:focus {
+.portfolio-projects:hover, a:focus {
     text-decoration:none;
     color: white;
 }
@@ -116,6 +120,31 @@ h1{
 }
 h2{
   font-size: 3.0vh;
+}
+.integrify{
+  color: #337ab7
+}
+.explain-project{
+color:rgb(250, 247, 242);
+}
+.play{
+  margin-right: 10px;
+}
+.demo-link{
+  font-size:2.5vh;
+  color: white;
+  text-decoration: none;
+}
+.demo-link:hover{
+  text-decoration: none;
+  color:black
+}
+.bold{
+  color:#4A148C;
+  font-size: 2.5vh;
+}
+.menu-collapse{
+  text-align:right !important; 
 }
 @media only screen and (min-width: 800px) {
 
